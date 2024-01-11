@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”robots” content=”noindex” />
+    <link rel="shortcut icon" href="https://profile.moticat.net/assets/images/icon.webp">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Electrolize', sans-serif;
+        }
+
+        section img {
+            width: 200px;
+            border-radius: 50%;
+            animation: rotate 0.1s infinite linear;
+            animation-timing-function: linear;
+        }
+        img[src="assets/images/icon.webp"] {
+            width: 200px;
+            height: 200px;
+            margin-top: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }  
+
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <title>404 Not Found</title>
+</head>
+
+<body>
+    <section>
+        <img src="assets/images/icon.webp" alt="Profile Picture">
+        <h1>404 Not Found</h1>
+        <p>The page does not exist.</p>
+        <a href="https://profile.moticat.net">Return to Home</a>
+        <div class="social-icons">
+            <a href="https://twitter.com/m0ticat" target="_blank"><img id="twitter-icon" src="assets/images/X-icon.webp"
+                    alt="Twitter"></a>
+            <a href="https://instagram.com/m0ticat" target="_blank"><img src="assets/images/Instagram-icon.webp" alt="Instagram"></a>
+            <a href="https://github.com/MotiCAT" target="_blank"><img src="assets/images/GitHub-icon.webp" alt="GitHub"></a>
+            <a href="https://steamcommunity.com/id/MotiCAT/" target="_blank"><img src="assets/images/Steam-icon.webp" alt="Steam"></a>
+        </div>
+        <h2>What's this page?</h2>
+        <p>Does not seem worth seeing.</p>
+        <p style="font-size: 12px;">&copy; 2023 MotiCAT</p>
+    </section>
+
+</body>
+
+</html>
